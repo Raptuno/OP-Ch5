@@ -26,9 +26,7 @@ import java.util.*;
 public class Main {
 	public static void main (String[] args) throws IOException{
 		Game g=new Game();
-		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		
-		System.out.print("Ingrese una palabra con acentos: ");
-		System.out.println(g.accentStripper(br.readLine().toLowerCase()));
+		
 	}
 }

@@ -38,7 +38,7 @@ public class Game {
 	}
 	
 	public int indexer() {
-		return (int) (Math.random()*((6-1)+1)+1);
+		return (int) (Math.random()*((4-0)+1));
 	}
 	
 	public void mainGame() {
