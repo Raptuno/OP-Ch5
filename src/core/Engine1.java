@@ -78,6 +78,7 @@ public class Engine1 {
 					}
 				}
 			} catch (Exception e) {
+				System.out.println("Algo salió mal. Contacta al creador de este juego (un tal Raptuno) y muéstrale este mensaje: ");
 				e.printStackTrace();
 				break;
 			}

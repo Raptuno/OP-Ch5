@@ -2,7 +2,7 @@ package core;
 import java.io.*;
 import java.util.*;
 
-//Reto 5: Juego de adivinar palabras
+//Retos 5 y 6: Juego de adivinar palabras
 
 /*
  * Carlos desea ayudar a mejorar la ortografía de su hijo, por lo que ha pensado en realizar un juego de adivinar palabras.

@@ -31,7 +31,7 @@ public class Game {
 	public String[] hard= {"Diccionarios", "Aflojamiento", "Arqueología", "Barbaridades", "Mexicanismos"};
 	//Termina lista de Arreglos de palabras por dificultad
 	
-	public String accentStripper(String s) { //Mátodo para quitar acentos en la seleccián de dificultad
+	public String accentStripper(String s) { //Mátodo para quitar acentos en la selección de dificultad
 		String stripOutcome=Normalizer.normalize(s, Normalizer.Form.NFD);
 		stripOutcome=stripOutcome.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
 		return stripOutcome;
@@ -53,12 +53,12 @@ public class Game {
 			guess=eng1.gameInit(cmp);
 			eng1.mainScript(cmp, guess, br);
 			break;
-		case "intermedio":
+		case "intermedia":
 			cmp=new String(eng1.stringInit(inter, indexer(5)));
 			guess=eng1.gameInit(cmp);
 			eng1.mainScript(cmp, guess, br);
 			break;
-		case "avanzado":
+		case "avanzada":
 			cmp=new String(eng1.stringInit(hard, indexer(5)));
 			guess=eng1.gameInit(cmp);
 			eng1.mainScript(cmp, guess, br);
